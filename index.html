@@ -24,19 +24,19 @@
                 <button class="navButtons" id="play">&#9658;</button>
                 <button class="navButtons" id="next">&#9658;&#9658;</button>
                 <span class="trackTimer" id="currentTime"></span>
-                <input type="range" min="0" max="1000" value="0" name="progress" id="progress">
+                <input type="range" min="0" max="1000" value="0" name="progress" id="progress" aria-label="Track progress slider">
                 <span class="trackTimer" id="duration"></span>
             </span>
 
             <span id="searchAndVolume">
                 <span id="searchBox">
                     <button id="searchButton">&#128269;</button>
-                    <input type="search" name="searchField" id="searchField" placeholder="  Neolithical-Era Shazam">
+                    <input type="search" name="searchField" id="searchField" placeholder="Neolithical-Era Shazam" aria-label="Search textfield">
                 </span>
 
                 <span id="volumeControl">
                     <button class="navButtons" id="lowerVolume">&#128266;</button>
-                    <input class="navButtons" type="range" min="0" max="100" value="50" name="volume" id="volume">
+                    <input class="navButtons" type="range" min="0" max="100" value="50" name="volume" id="volume" aria-label="Volume slider">
                 </span>
             </span>
         </div>
